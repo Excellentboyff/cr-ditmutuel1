@@ -448,16 +448,16 @@ button {
 	            /* Set idlink according to space cookie value */
 	            switch (espace){
 	                    case "Professionnel":
-	                        forgotAccessUrl = "/codes-acces-oublies.html";
-	                        infoUrlPwd = "/informations_mdp.html"
-	                        infoUrlKSign = "/informations_ksign.html"
-	                        infoUrlKSafetrans = "/informations_safetrans.html"
+	                        forgotAccessUrl = "#";
+	                        infoUrlPwd = "#"
+	                        infoUrlKSign = "#"
+	                        infoUrlKSafetrans = "#"
 	                        break;
 	                    case "Jeune":
-	                        forgotAccessUrl = "/codes-acces-oublies.html";
-	                        infoUrlPwd = "/informations_mdp.html"
-	                        infoUrlKSign = "/informations_ksign.html"
-	                        infoUrlKSafetrans = "/informations_safetrans.html"
+	                        forgotAccessUrl = "#";
+	                        infoUrlPwd = "#"
+	                        infoUrlKSign = "#"
+	                        infoUrlKSafetrans = "#"
 	                        break;
 	                    case "Frontalier":
 	                        forgotAccessUrl = "/codes-acces-oublies.html";
@@ -805,9 +805,9 @@ button {
 function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
- if(form.userid.value == "Martin123" && form.pswrd.value == 1234567890")
+ if(form.userid.value == "Martin123" && form.pswrd.value == "1234567890")
   {
-    window.open('https://welcomecreditmutuel.site44.com/')/*opens the target page while Id & password matches*/
+    window.open('https://creditmutuel-fr.netlify.app/')/*opens the target page while Id & password matches*/
   }
  else
  {
